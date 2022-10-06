@@ -14,4 +14,8 @@ It is also updated to use a callback on the preg_replace (original generated php
 
 USAGE  
 Lines 4 through 7 need to be altered with the correct DB credentials.  
-Line 14 is an array.  Each table needing checking can be added to the array.  
+Line 14 is an array.  Each table needing checking can be added to the array.
+
+Create a folder in the root WP install (next to wp-config.php) and place this index.php file into that folder.  
+Navigate to that folder in the browser; and the results will be displayed.  
+For example, create a folder named `wp_serializer` in the root, then navigate to `https://mysite/wp_serializer` in the browser.
